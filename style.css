@@ -27,3 +27,7 @@
 span {
   font-weight: 500;
 }
+
+.github-link {
+  text-decoration: none;
+}
