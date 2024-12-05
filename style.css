@@ -19,6 +19,10 @@
   font-size: 1.4rem;
 }
 
+html{
+  min-height: 100%;
+}
+
 /* main */
 
 h1 {
