@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'De Hudson Hand';
+    src: url('DeHudsonHand.eot');
+    src: local('De Hudson Hand'), local('DeHudsonHand'),
+        url('DeHudsonHand.eot?#iefix') format('embedded-opentype'),
+        url('DeHudsonHand.woff2') format('woff2'),
+        url('DeHudsonHand.woff') format('woff'),
+        url('DeHudsonHand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'De Hudson Serif';
+    src: url('DeHudsonSerif.eot');
+    src: local('De Hudson Serif'), local('DeHudsonSerif'),
+        url('DeHudsonSerif.eot?#iefix') format('embedded-opentype'),
+        url('DeHudsonSerif.woff2') format('woff2'),
+        url('DeHudsonSerif.woff') format('woff'),
+        url('DeHudsonSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'De Hudson Hand Alt';
+    src: url('DeHudsonHandAlt.eot');
+    src: local('De Hudson Hand Alt'), local('DeHudsonHandAlt'),
+        url('DeHudsonHandAlt.eot?#iefix') format('embedded-opentype'),
+        url('DeHudsonHandAlt.woff2') format('woff2'),
+        url('DeHudsonHandAlt.woff') format('woff'),
+        url('DeHudsonHandAlt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
