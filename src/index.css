@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "De Hudson Hand";
+  src: url("./assets/fonts/font/DeHudsonHand.eot");
+  src:
+    local("De Hudson Hand"),
+    local("DeHudsonHand"),
+    url("./assets/fonts/font/DeHudsonHand.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/font/DeHudsonHand.woff2") format("woff2"),
+    url("./assets/fonts/font/DeHudsonHand.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --colors--green: #4b7f66;
+  --colors--deep-green: #164032;
+  --colors--light-cream: #f4f4f2;
+  --colors--brand-black: #1b150a;
+  --colors--orange: #e54e27;
+  --colors--cream: #e9deca;
+  --colors--blue: #54659c;
+  --colors--transparent: #fff0;
+  --colors--light-gray: #eaeaea;
+}
+
+/* Tailwind CSS v4 directive; the editor's standard CSS validator does not recognize it. */
+/* css-lint disable unknownAtRules */
+@theme {
+  --font-de-hudson-hand: "De Hudson Hand", sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+
+  --color-green: var(--colors--green);
+  --color-deep-green: var(--colors--deep-green);
+  --color-light-cream: var(--colors--light-cream);
+  --color-brand-black: var(--colors--brand-black);
+  --color-orange: var(--colors--orange);
+  --color-cream: var(--colors--cream);
+  --color-blue: var(--colors--blue);
+  --color-light-gray: var(--colors--light-gray);
+}
+/* css-lint enable unknownAtRules */
